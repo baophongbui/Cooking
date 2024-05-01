@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/ic_list"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/notification_svgrepo_com"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="Welcome"
+                android:textColor="@color/white"
+                android:textSize="27dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:paddingStart="9dp"
+                android:text="Phong"
+                android:textColor="#FF6B00"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="291dp"
+            android:layout_height="79dp"
+            android:fontFamily="@font/roboto"
+            android:text="Hôm nay bạn muốn nấu gì?"
+            android:layout_marginStart="30dp"
+            android:textColor="#FF6B00"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/btn"
+            android:drawableEnd="@drawable/search_svgrepo_com"
+            android:fontFamily="@font/roboto"
+            android:gravity="start|center"
+            android:hint="Tìm kiếm"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto"
+            android:text="Công Thức Hot Hôm Nay"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSearch" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:id="@+id/recyclerView"
+            tools:listitem="@layout/cardview" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

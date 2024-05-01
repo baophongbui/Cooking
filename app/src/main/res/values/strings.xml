@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Cooking</string>
+
+    <string name="api_key">bd7131ef67a544ebbe0f8e7a351b4b79</string>
+
+
+    <string name="crepe">
+        <b>Nguyên liệu:</b> \n
+
+\t\t 1 1/2 tách bột mịn \n
+\t\t 3/4 tách sữa tươi \n
+\t\t 2 quả trứng \n
+\t\t 2 muỗng canh bơ chảy \n
+\t\t 1 muỗng canh đường \n
+\t\t 1/4 muỗng cà phê muối \n
+\t\t 1/2 muỗng cà phê vani tinh chất \n
+\t\t Berries (quả mâm xôi) tươi hoặc đông lạnh (dâu tây, việt quất, mâm xôi...) \n
+        <b>Hướng dẫn:</b> \n
+
+\t\t Trong một tô lớn, trộn bột mịn, đường và muối. \n
+\t\t Trong một tô khác, kết hợp sữa tươi, trứng và vani. Khi kết hợp, đánh tan trứng. \n
+\t\t Dùng một dụng cụ đánh trứng hoặc một cái đũa, kết hợp từ từ hỗn hợp sữa trứng vào hỗn hợp bột. Khi kết hợp, đảm bảo không có cục bột. \n
+\t\t Thêm bơ chảy vào hỗn hợp và khuấy đều. \n
+\t\t Đặt một chiếc chảo tráng men trên lửa vừa và để nó nóng. Đảm bảo chảo được tráng men hoặc sử dụng một ít bơ để tránh bánh dính vào chảo. \n
+\t\t Khi chảo đã nóng, múc một muỗng canh hoặc 1/4 cup hỗn hợp bột lên chảo và nhanh chóng lăn chảo để phủ đều bột trên mặt chảo. \n
+\t\t Chiên bánh trong khoảng 1-2 phút hoặc cho đến khi mặt bánh có màu vàng nhạt.\n
+\t\t Lật bánh crepe sang và chiên thêm khoảng 30 giây đến 1 phút ở mặt bánh còn lại.\n
+\t\t Chuyển bánh crepe ra từng đĩa riêng biệt và tiếp tục chiên các bánh crepe còn lại từ hỗn hợp bột.\n
+\t\t Khi đã chiên xong, bạn có thể chấm bánh crepe với các loại berries tươi hoặc đông lạnh như dâu tây, việt quất, mâm xôi. Có thể thêm một chút đường trên mặt berries để tăng hương vị.\n
+\t\t Cuộn bánh crepe lại hoặc gập thành nhiều lớp, sau đó trang trí bằng berries thêm lên trên.\n
+\t\t Bánh crepe và berries sẽ tạo nên một món tráng miệng ngon lành và hấp dẫn. Bạn có thể thưởng thức nó vào bất kỳ thời điểm nào trong ngày.\n
+    </string>
+
+    <string name="burger">
+        <b>Nguyên liệu:</b> \n
+
+\t\t 500g thịt bò xay (có thể sử dụng thịt gà hoặc thịt cá nếu muốn) \n
+\t\t 1/2 hành tây, băm nhỏ\n
+\t\t 2-3 tép tỏi, băm nhỏ\n
+\t\t 1/4 cup bột mì (breadcrumbs)\n
+\t\t 1 quả trứng\n
+\t\t 1 muỗng canh nước tương\n
+\t\t 1 muỗng canh xì dầu\n
+\t\t Muối và tiêu theo khẩu vị\n
+\t\t Bánh mì burger\n
+\t\t Rau sống (xà lách, cà chua, hành tây, ớt,...)\n
+\t\t Phô mai (tuỳ chọn)\n
+\t\t Sốt (ketchup, mayonnaise, nước sốt BBQ,...)\n
+<b>Hướng dẫn:</b> \n
+
+\t\t Trong một tô lớn, kết hợp thịt xay, hành tây, tỏi băm, bột mì, trứng, nước tương, xì dầu, muối và tiêu. Trộn đều nhưng không nên nhồi quá lâu để tránh làm cứng thịt.\n
+\t\t Chia hỗn hợp thịt thành các phần nhỏ và dùng tay để tạo thành những viên bánh burger có đường kính và độ dày mong muốn.\n
+\t\t Chiên hoặc nướng bánh burger trên lửa vừa hoặc trong lò nướng ở nhiệt độ khoảng 180-200°C. Chiên hoặc nướng mỗi mặt trong khoảng 4-5 phút cho đến khi bánh chín và có màu vàng nâu.\n
+\t\t Trong khi bánh burger đang nấu, bạn có thể chế biến các loại rau sống như xà lách, cà chua, hành tây, ớt, để sử dụng làm lớp nhân cho burger.\n
+\t\t Khi bánh burger đã chín, bạn có thể thêm phô mai lên mặt bánh và để nó tan chảy bằng cách đậy nắp lên trong vài giây.\n
+\t\t Chuẩn bị bánh mì burger bằng cách chia một chiếc bánh mì ngang làm hai nửa và nướng chúng trên lửa nhẹ hoặc trong lò nướng để cho mặt trong bánh mì có màu vàng nhạt.\n
+\t\t Khi bánh burger và bánh mì đã sẵn sàng, bạn có thể bắt đầu xếp lớp nhân bánh. Đặt lớp rau sống lên mặt dưới của bánh mì, sau đó đặt bánh burger lên trên. Thêm các loại sốt như ketchup, mayonnaise và nước sốt BBQ lên bánh.\n
+\t\t Đặt mặt trên của bánh mì lên và có thể sử dụng que chọc hoặc que gỗ để giữ cho burger không bị trượt ra khỏi nhau.\n
+\t\t Thưởng thức burger nóng và kèm theo các món ăn phụ như khoai tây chiên, salát, hoặc nước ngọt.\n
+    </string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+</resources>
